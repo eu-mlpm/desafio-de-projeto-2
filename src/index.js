@@ -1,7 +1,10 @@
-let nomeDoJogador = "Shann"
-let nivelDoPersonagem = ""
-rankDoJogador (0,3)
+//Defina o nome do Personagem
+// E as vitorias e derratas no campo de rankDoJogador, sendo os números separados por virgulas e cada um representa vitórias e derrotas, respectivamente.
 
+let nomeDoJogador = "Shann"
+rankDoJogador (3,3)
+
+let nivelDoPersonagem = ""
 function rankDoJogador (vitoria, derrota){
     return resultado = vitoria - derrota
 }
@@ -22,4 +25,4 @@ if(resultado <= 10 ){
     nivelDoPersonagem = "Imortal"
 } 
 
-console.log(`O Herói ${nomeDoJogador} tem de saldo de ${resultado} está no nível de ${nivelDoPersonagem}`)
+console.log(`O Herói ${nomeDoJogador} tem de saldo de ${resultado} e está no nível de ${nivelDoPersonagem}.`)
